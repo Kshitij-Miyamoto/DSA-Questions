@@ -1,1 +1,5 @@
-This a reository where I will be learning JAVA and DSA
+This a reository where I will be learning JAVA and DSA.
+Primary Sources are :
+1. Kunal Kushwaha
+2. Documentation
+3. Chat Gpt
