@@ -24,5 +24,3 @@ public class Q13 {
         }
         }
 
-
-/*This is how we had solved the 
