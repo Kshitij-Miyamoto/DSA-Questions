@@ -1,20 +1,23 @@
 import java.util.Scanner;
 
-public class Q32 {
+public class Q35 {
+    //Octal to decimal
     public static void main(String[] args) {
-        //Binary to decimal form
-        System.out.println("Enter a binary number: ");
+        System.out.println("enter an octal number: ");
         Scanner in = new Scanner(System.in);
-        int bin = in.nextInt();
+        int oct = in.nextInt();
         int place = 1;
         int decimal = 0;
 
-        while(bin != 0){
-            int dec = bin%10;
-            bin = bin/10;
+
+        while(oct != 0){
+            int dec = oct%10;
+            oct = oct/10;
             decimal = decimal + dec*place;
-            place = place*2;
+            place = place*8;
+
         }
         System.out.println(decimal);
+
     }
 }
