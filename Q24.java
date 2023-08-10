@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Q24 {
     public static void main(String[] args) {
-        //Rotation of a number problem really dope.
+        //Inverse of a number problem really dope.
         System.out.println("Enter a number: ");
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
