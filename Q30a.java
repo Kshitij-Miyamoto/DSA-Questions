@@ -1,7 +1,7 @@
 import java.util.Scanner;
-//To check the number of occurences of a digit in a number.
-public class Q30 {
-    public static void main(String[] args) {
+//occurences of a function, however this time with a function.
+public class Q30a {
+    static int occ(){
         System.out.println("Enter the number: ");
         Scanner in = new Scanner(System.in);
         int num = in.nextInt();
@@ -15,6 +15,12 @@ public class Q30 {
             if(digit == f){
                 occ = occ+1;}
         }
-        System.out.println("The number " + f + " has occured "+ occ + " times");
+        return occ;
+    }
+
+    public static void main(String[] args) {
+       int z =  occ();
+        System.out.println("The occurences are " +  z);
     }
 }
+
